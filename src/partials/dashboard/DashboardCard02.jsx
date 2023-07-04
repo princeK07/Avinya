@@ -80,32 +80,32 @@ function DashboardCard02() {
           </EditMenu> */}
         </header>
         <h2 className="text-3xl font-bold text-indigo-500 mb-2">Content Highlights</h2>
-         
+
         <div className="flex items-start">
           <div className="text-3lg font-semibold text-white mr-2">Impressions</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-emerald-500 rounded-full">+66.9%</div>
-        </div> 
+        </div>
         <div className="flex items-start">
-        <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Check out your content's impression</div>
-        </div> 
-       
+          <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Check out your content's impression</div>
+        </div>
+
         <div className="flex items-start">
           <div className="text-3lg font-semibold text-white mr-2">Engagement rate</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-emerald-500 rounded-full">+6.97%</div>
-        </div> 
+        </div>
         <div className="flex items-start">
-        <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Get to know your community interaction</div>
-        </div> 
+          <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Get to know your community interaction</div>
+        </div>
 
         <div className="flex items-start">
           <div className="text-3lg font-semibold text-white mr-2">Feedbacks</div>
           <div className="text-sm font-semibold text-white px-1.5 bg-emerald-500 rounded-full">+3%</div>
-        </div> 
+        </div>
         <div className="flex items-start">
-        <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Go through other's opinions </div>
-        </div> 
+          <div className="text-xs font-semibold text-slate-400 uppercase mb-1">Go through other's opinions </div>
+        </div>
       </div>
-      <div> 
+      <div>
         <br>
         </br>
       </div>

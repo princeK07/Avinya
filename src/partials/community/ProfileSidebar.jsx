@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProfileImage from '../../images/favicon.jpg';
+import ProfileImage from '../../images/iiitbhLogo.jpg';
 import UserImage01 from '../../images/user-32-01.jpg';
 import UserImage02 from '../../images/user-32-02.jpg';
 import UserImage03 from '../../images/user-32-03.jpg';
@@ -17,9 +17,8 @@ function ProfileSidebar({
   return (
     <div
       id="profile-sidebar"
-      className={`absolute z-20 top-0 bottom-0  w-full md:w-auto md:static md:top-auto md:bottom-auto -mr-px md:translate-x-0 transition-transform duration-200 ease-in-out ${
-        profileSidebarOpen ? 'translate-x-0' : '-translate-x-full'
-      }`}
+      className={`absolute z-20 top-0 bottom-0  w-full md:w-auto md:static md:top-auto md:bottom-auto -mr-px md:translate-x-0 transition-transform duration-200 ease-in-out ${profileSidebarOpen ? 'translate-x-0' : '-translate-x-full'
+        }`}
     >
       <div className="sticky top-16 bg-gradient overflow-x-hidden overflow-y-auto no-scrollbar shrink-0 border-r border-slate-200 md:w-72 xl:w-80 h-[calc(100vh-64px)]">
         {/* Profile group */}
@@ -33,7 +32,7 @@ function ProfileSidebar({
                   <div className="grow flex items-center truncate">
                     <img className="w-8 h-8 " src={ProfileImage} width="32" height="32" alt="ProfileImage" />
                     <div className="truncate">
-                      <span className="font-semibold text-indigo-500">MAHE - Avinya</span>
+                      <span className="font-semibold text-indigo-500">Avinya</span>
                     </div>
                   </div>
                 </div>
@@ -76,7 +75,7 @@ function ProfileSidebar({
                         <img className="w-8 h-8 rounded-full" src={UserImage08} width="32" height="32" alt="User 08" />
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-slate-800">Accelth</span>
+                        <span className="text-sm font-medium text-slate-800">Profile1</span>
                       </div>
                     </div>
                   </button>
@@ -90,9 +89,9 @@ function ProfileSidebar({
                       <div className="truncate">
                         <span className="text-sm font-medium text-indigo-500">
                           <a
-                          href='https://www.fundinc.in/'
+                            href='#'
                           >
-                          Fundinc
+                            Profile2
                           </a>
                         </span>
                       </div>
@@ -106,7 +105,7 @@ function ProfileSidebar({
                         <img className="w-8 h-8 rounded-full" src={UserImage03} width="32" height="32" alt="User 03" />
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-indigo-500">Formi</span>
+                        <span className="text-sm font-medium text-indigo-500">Profile3</span>
                       </div>
                     </div>
                   </button>
@@ -119,7 +118,7 @@ function ProfileSidebar({
                         <div className="absolute top-0 right-0 w-2.5 h-2.5 bg-emerald-500 border-2 border-white rounded-full"></div>
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-indigo-500">Prof. Sucheta Kolekar</span>
+                        <span className="text-sm font-medium text-indigo-500">Profile4</span>
                       </div>
                     </div>
                   </button>
@@ -132,7 +131,7 @@ function ProfileSidebar({
                         <div className="absolute top-0 right-0 w-2.5 h-2.5 bg-emerald-500 border-2 border-white rounded-full"></div>
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-indigo-500">Allmity</span>
+                        <span className="text-sm font-medium text-indigo-500">Profile5</span>
                       </div>
                     </div>
                   </button>
@@ -144,7 +143,7 @@ function ProfileSidebar({
                         <img className="w-8 h-8 rounded-full" src={UserImage04} width="32" height="32" alt="User 04" />
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-indigo-500">Aditya Mishra</span>
+                        <span className="text-sm font-medium text-indigo-500">Profile6</span>
                       </div>
                     </div>
                   </button>
@@ -157,7 +156,7 @@ function ProfileSidebar({
                         <div className="absolute top-0 right-0 w-2.5 h-2.5 bg-emerald-500 border-2 border-white rounded-full"></div>
                       </div>
                       <div className="truncate">
-                        <span className="text-sm font-medium text-indigo-500">Prof. Satyakam Dev</span>
+                        <span className="text-sm font-medium text-indigo-500">Profile7</span>
                       </div>
                     </div>
                   </button>
@@ -171,4 +170,4 @@ function ProfileSidebar({
   );
 }
 
-export default ProfileSidebar;
+export default ProfileSidebar;

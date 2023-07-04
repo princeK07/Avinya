@@ -26,100 +26,100 @@ function UsersTiles() {
   const items = [
     {
       id: 0,
-      name: 'Arushi Gandhi',
+      name: 'User1',
       image: Image01,
-      link: 'https://www.linkedin.com/in/arushi-gandhi/overlay/contact-info/',
+      link: '#',
       location: 'Fundinc',
       content: 'Aspiring Entrepreneur, Driven Generalist, Full Stack Web Developer, Debator, Always up for a chat.',
-     
+
     },
-    
+
     {
       id: 1,
-      name: 'Sakshat Gandhi',
+      name: 'User2',
       image: Image02,
-      link: 'https://www.linkedin.com/in/sakshat-gandhi-09035b1a1/overlay/contact-info/',
+      link: '#',
       location: 'Baylink',
       content: 'Problem Solver, Innovator, Full Stack Developer, Brings Technical Expertise to every aspect of his work.',
     },
     {
       id: 2,
-      name: 'Gaurav Samant',
+      name: 'User3',
       image: Image03,
-      link: 'https://www.linkedin.com/in/gaurav-samant-665a5a174/overlay/contact-info/',
+      link: '#',
       location: 'Peryton Tech',
       content: 'Fitness Fanatic, Design Enthusiast, Mentor, Meetup Organizer, Team Player and a PHP Lover.',
     },
     {
       id: 3,
-      name: 'Anirudh Arun',
+      name: 'User4',
       image: Image04,
-      link: 'https://www.linkedin.com/in/anirudh-arun-2823b3204/overlay/contact-info/',
+      link: '#',
       location: 'Formi',
       content: 'Brings together great minds in the entrepreneurial ecosystem, providing peers with the resources to succeed',
     },
     {
       id: 4,
-      name: 'Deepesh Garg',
+      name: 'User5',
       image: Image05,
-      link: 'https://www.linkedin.com/in/deepesh-garg-4a14b7104/overlay/contact-info/',
+      link: '#',
       location: 'Fundinc',
       content: 'Machine Learning Engineer (MLOps), Full Stack Developer, passion for coding and problem solving',
     },
     {
       id: 5,
-      name: 'Dhruva Goyal',
+      name: 'User6',
       image: Image06,
-      link: 'https://www.linkedin.com/in/dhruvagoyal/overlay/contact-info/',
+      link: '#',
       location: 'BugBase',
       content: 'entrepreneur, full-stack developer & OSCP, OSWE and CEH-certified cybersecurity engineer.',
     },
     {
       id: 6,
-      name: 'Saransh Agarwal',
+      name: 'User7',
       image: Image07,
-      link: 'https://www.linkedin.com/in/saransh-agarwal-1809601b5/overlay/contact-info/',
+      link: '#',
       location: '225.in',
       content: 'Product Developer, Design Enthusiast, Athlete, Meetup Organizer, Problem Solver, Programming Enthusiast.',
     },
     {
       id: 7,
-      name: 'Brian Halligan',
+      name: 'User8',
       image: Image08,
-      link: 'https://www.linkedin.com/in/aditluhadia/overlay/contact-info/',
+      link: '#',
       location: 'Allmity',
       content: 'Flutter Developer, Design Enthusiast, ML/AI, Organizer, PHP Lover, Initiator, Team Leader, Manager',
     },
     {
       id: 8,
-      name: 'Prof. Satyakam Dev',
+      name: 'User9',
       image: Image09,
-      link: 'https://www.linkedin.com/in/satyakam-dev/overlay/contact-info/',
+      link: '#',
       location: 'Dept. of EEE',
       content: 'Control Systems Design, Communication, Electrical Engineering, Microsoft PowerPoint, and University Teaching',
     },
     {
       id: 9,
-      name: 'Dr. Md. Zuber',
+      name: 'User10',
       image: Image10,
-      link: 'https://www.linkedin.com/in/mohammad-zuber-8421aaa5/overlay/contact-info/',
+      link: '#',
       location: 'Chief Innovation Officer',
       content: 'Fitness Enthusiast, Management, Asst. Director of Innovation, Lecturer, Team Player, Creative, Supportive',
     },
     {
       id: 10,
-      name: 'Prof. Sucheta Kolekar',
+      name: 'User11',
       image: Image11,
-      link: 'https://www.linkedin.com/in/sucheta-kolekar-74920415/overlay/contact-info/',
+      link: '#',
       location: 'Dept. of ICT',
       content: 'PhD in Adaptive E-learning, teaching, Cloud Computing, Software Engineering, Adaptive E-learning.',
     },
     {
       id: 11,
-      name: 'Cdr. Dr. Anil Rana',
+      name: 'User12',
       image: Image12,
-      link: 'https://www.linkedin.com/in/commander-dr-anil-rana-in-retd/overlay/contact-info/',
-      location: 'Director: MAHE-MIT',
+      link: '#',
+      location: 'Director: IIIT Bhagalpur',
       content: 'A passionate humanitarian and a tireless advocate for education and its role for the betterment of communities.',
     },
   ];
@@ -132,7 +132,7 @@ function UsersTiles() {
       {/* Sidebar */}
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
-      {/* Content area */} 
+      {/* Content area */}
       <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
 
         {/*  Site header */}
@@ -146,7 +146,7 @@ function UsersTiles() {
 
               {/* Left: Title */}
               <div className="mb-4 sm:mb-0">
-                <h1 className="text-2xl md:text-3xl text-indigo-500 font-bold">MAHE - Avinya</h1>
+                <h1 className="text-2xl md:text-3xl text-indigo-500 font-bold">Avinya</h1>
               </div>
 
               {/* Right: Actions */}
@@ -182,7 +182,7 @@ function UsersTiles() {
                 })
               }
             </div>
-{/* 
+            {/* 
             Pagination
             <div className="mt-8">
               <PaginationNumeric />
@@ -192,9 +192,9 @@ function UsersTiles() {
         </main>
 
       </div>
-      
+
     </div>
   );
 }
 
-export default UsersTiles;
+export default UsersTiles;

@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Transition from '../utils/Transition';
 
-import UserAvatar from '../images/favicon.jpg';
+import UserAvatar from '../images/iiitbhLogo.jpg';
 
 function DropdownProfile({
   align
@@ -45,7 +45,7 @@ function DropdownProfile({
       >
         <img className="w-8 h-8 rounded-full" src={UserAvatar} width="32" height="32" alt="User" />
         <div className="flex items-center truncate">
-          <span className="truncate ml-2 text-sm text-white font-medium group-hover:text-indigo-500">MAHE - Avinya</span>
+          <span className="truncate ml-2 text-sm text-white font-medium group-hover:text-indigo-500">Avinya</span>
           <svg className="w-3 h-3 shrink-0 ml-1 fill-current text-slate-400" viewBox="0 0 12 12">
             <path d="M5.9 11.4L.5 6l1.4-1.4 4 4 4-4L11.3 6z" />
           </svg>

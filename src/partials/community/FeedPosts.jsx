@@ -26,10 +26,10 @@ function FeedPosts() {
             <div>
               <div className="leading-tight">
                 <a className="text-sm font-semibold text-indigo-500" href="#0">
-                  Dominik Lamakani
+                  username
                 </a>
               </div>
-              <div className="text-xs text-white">Yesterday at 10:48 AM</div>
+              <div className="text-xs text-white">Yesterday at 11:11 AM</div>
             </div>
           </div>
           {/* Menu button */}
@@ -55,8 +55,7 @@ function FeedPosts() {
         <div className="text-sm text-white space-y-2 mb-5">
           <p>👋</p>
           <p>
-            It's more likely that people reading your blog will opt in with their email addresses if you give them something highly relevant in
-            return. Ditch that too-general lead magnet and create "content upgrades" for your highest-traffic articles.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam neque delectus, fugit iusto corrupti at, vel earum consequuntur ab praesentium, aspernatur cum? Ducimus illo, labore voluptates fugit eum quam a!
           </p>
           <p>Thread 👇</p>
         </div>
@@ -96,7 +95,7 @@ function FeedPosts() {
             <div>
               <div className="leading-tight">
                 <a className="text-sm font-semibold text-indigo-500" href="#0">
-                  Mark Karimani
+                  username
                 </a>
               </div>
               <div className="inline-flex items-center">
@@ -128,12 +127,12 @@ function FeedPosts() {
         </header>
         {/* Body */}
         <div className="text-sm text-white space-y-2 mb-5">
-          <p>Designing an Earth-positive future, together 🌿</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           <div className="relative !my-4">
             <img className="block w-full" src={FeedImage01} width="590" height="332" alt="Feed 01" />
             <div className="absolute left-0 right-0 bottom-0 p-4 bg-black bg-opacity-25 backdrop-blur-md">
               <div className="flex items-center justify-between">
-                <div className="text-xs font-medium text-white">togethernature.com</div>
+                <div className="text-xs font-medium text-white">nature.com</div>
                 <a className="text-xs font-medium text-indigo-400 hover:text-indigo-300" href="#0">
                   Learn More -&gt;
                 </a>
@@ -177,10 +176,10 @@ function FeedPosts() {
             <div>
               <div className="leading-tight">
                 <a className="text-sm font-semibold text-indigo-500" href="#0">
-                  Erica Spriggs
+                  username
                 </a>
               </div>
-              <div className="text-xs text-white">Yesterday at 2:34 PM</div>
+              <div className="text-xs text-white">Yesterday at 12:34 PM</div>
             </div>
           </div>
           {/* Menu button */}
@@ -204,7 +203,7 @@ function FeedPosts() {
         </header>
         {/* Body */}
         <div className="text-sm text-white space-y-2 mb-5">
-          <p>Any book recommendations for a first-time entrepreneur? 📚</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ex.?</p>
         </div>
         {/* Footer */}
         <footer className="flex items-center space-x-4">
@@ -240,15 +239,15 @@ function FeedPosts() {
                 <div>
                   <div className="text-xs text-slate-500">
                     <a className="font-semibold text-white" href="#0">
-                      Sophie Wenner
+                      username
                     </a>{' '}
                     · 44min
                   </div>
                   <div className="text-sm">
                     <a className="font-medium text-indigo-500 hover:text-indigo-600" href="#0">
-                      @EricaSpriggs
+                      @username
                     </a>{' '}
-                    <div className="text-white">Reading through and really enjoying "Zero to Sold" by Arvid.</div>
+                    <div className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, laboriosam.</div>
                   </div>
                 </div>
               </div>
@@ -260,12 +259,12 @@ function FeedPosts() {
                 <div>
                   <div className="text-xs text-slate-500">
                     <a className="font-semibold text-indigo-500" href="#0">
-                      Kyla Scanlon
+                      username
                     </a>{' '}
                     · 1h
                   </div>
                   <div className="text-sm text-white">
-                    Depends on the company you're running, but if I had to choose just one book, it'd be The Personal MBA by Josh Kaufman.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, eveniet!
                   </div>
                 </div>
               </div>
@@ -306,7 +305,7 @@ function FeedPosts() {
             <div>
               <div className="leading-tight">
                 <a className="text-sm font-semibold text-indigo-500" href="#0">
-                  Margaret Sullivan
+                  username
                 </a>
               </div>
               <div className="text-xs text-white">Yesterday at 4:56 PM</div>
@@ -333,7 +332,7 @@ function FeedPosts() {
         </header>
         {/* Body */}
         <div className="text-sm text-white space-y-2 mb-5">
-          <p>Kyla Network - Make new connections, join communities, and access exclusive experiences. 🧑‍🤝‍🧑</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quis.</p>
           <div className="relative flex items-center justify-center !my-4">
             <img className="block w-full" src={FeedImage02} width="590" height="332" alt="Feed 01" />
             <button className="absolute group">
